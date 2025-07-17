@@ -12,8 +12,9 @@
 
 *MENTOR*: NEELA SANTOSH
 
-#DESCRIPTION: 
- The Interactive Quiz Application is a fun and educational web-based project built using HTML, CSS, and JavaScript, and developed with the help of Visual Studio Code (VS Code). It is designed to test and improve the knowledge of users through a wide range of quiz categories. The project provides a simple yet attractive user interface and offers real-time feedback, making it highly engaging and useful for learners of all ages.
+*DESCRIPTION*: 
+
+The Interactive Quiz Application is a fun and educational web-based project built using HTML, CSS, and JavaScript, and developed with the help of Visual Studio Code (VS Code). It is designed to test and improve the knowledge of users through a wide range of quiz categories. The project provides a simple yet attractive user interface and offers real-time feedback, making it highly engaging and useful for learners of all ages.
 One of the key features of the quiz is the ability to select a quiz category before starting. As shown in the application interface, users can choose from a variety of topics such as General Knowledge, Math, History, Computers, Politics, Science, Books, Music, Sports, Vehicles, Anime, Cartoon, and many more. This makes the quiz highly flexible and allows users to focus on the areas they are most interested in or want to improve.
 The application presents questions one at a time, and each question has four multiple-choice options. Users are given 15 seconds to answer each question. A visible progress bar slowly fills up to indicate the passing time, adding a level of excitement and challenge to the quiz. If the user selects the correct answer, the chosen option turns green, but if the answer is wrong, the selected option turns red—while the correct one is highlighted. This provides instant visual feedback, helping users learn from their mistakes right away.
 The questions and answers are stored in JavaScript arrays or objects, making them easy to update or expand. The quiz logic is handled entirely with JavaScript, which manages question flow, timer, progress tracking, score calculation, and UI updates in real time.
