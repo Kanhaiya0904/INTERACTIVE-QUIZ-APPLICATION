@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interactive Quiz App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Central wrapper for centering everything -->
+  <div class="main-container">
+
+    <!-- Progress bar -->
+    <div class="progress-bar-container">
+  <div class="progress-bar" id="progress-bar"></div>
+    </div>
+
+
+    <!-- Quiz content -->
+    <div class="container">
+      <h1>🎯 Interactive Quiz Challenge</h1>
+
+      <div class="selection">
+        <label for="categorySelect">📚 Choose a Category:</label>
+        <select id="categorySelect">
+          <option value="">-- Select Category --</option>
+          <option>General Knowledge</option>
+          <option>Books</option>
+          <option>Film</option>
+          <option>Music</option>
+          <option>Science & Nature</option>
+          <option>Computers</option>
+          <option>Math</option>
+          <option>History</option>
+          <option>Sports</option>
+          <option>Geography</option>
+          <option>Politics</option>
+          <option>Animals</option>
+          <option>Vehicles</option>
+          <option>Anime & Manga</option>
+          <option>Cartoon & Animations</option>
+        </select>
+        <button id="startBtn">🚀 Start Quiz</button>
+      </div>
+
+      <div id="quizContainer" class="quiz-container" style="display:none;">
+        <div class="quiz-header">
+          <div id="timer" class="timer">⏳ Time: 15s</div>
+          <div id="score" class="score">🏆 Score: 0</div>
+        </div>
+
+        <div id="question" class="question"></div>
+        <div id="optionsContainer" class="options"></div>
+        <div id="feedback" class="feedback"></div>
+      </div>
+    </div>
+
+  </div>
+  <div id="resultModal" class="modal">
+  <div class="modal-content">
+    <h2>🎉 Quiz Completed!</h2>
+    <p id="finalScoreText"></p>
+    <button onclick="closeModal()" class="close-btn">Play Again</button>
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
